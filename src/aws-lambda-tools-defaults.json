@@ -1,0 +1,14 @@
+{
+  "Information": [
+    "Image Resize AWS Lambda"
+  ],
+  "profile": "",
+  "region": "",
+  "configuration": "Release",
+  "framework": "netcoreapp3.1",
+  "function-runtime": "dotnetcore3.1",
+  "function-memory-size": 128,
+  "function-timeout": 20,
+  "function-handler": "aws-lambda-s3-img-resize::aws_lambda_s3_img_resize.Function::FunctionHandler",
+  "environment-variables": "Width=320;Quality=90;IsWebP=False"
+}
